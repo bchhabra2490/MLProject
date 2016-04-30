@@ -91,7 +91,7 @@ int main() {
     int m,attr;
     printf("Enter the number of data sets.\n");
     scanf("%d",&m);
-    printf("Enter the number of attributes.\n");
+    printf("Enter the number of attributes(press 9).\n");
     scanf("%d",&attr);
     float data[m][attr],newData[attr],theta[attr+1],price[m];
     for(int i=0;i<m;i++){
